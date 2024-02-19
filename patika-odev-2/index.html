@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <style>
+        #property{
+            display: grid;
+            text-align: center;
+            justify-content: center;
+        }
+        li{
+            list-style: none;
+            float: right;
+            padding-right: 15px;
+        }
+        li img{
+            width: 20px;
+            border-radius: 10px;
+            border: 1px solid black;
+        }
+        li a{
+            text-decoration: none;
+            color: black;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        li a:hover{
+            text-decoration: underline;
+
+        }
+        #logo-container {
+            display: flex;
+            justify-content: center; /* Resmi yatayda ortala */
+            margin-top: 75px;
+        }
+        .search-icons{
+            width: 15px;
+        }
+        #search-bar{
+            border: 1px solid black;
+            width: 300px;
+
+        }
+        input{
+            width: 210px;
+        }
+        footer {
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+        width: 100%;
+        padding:15px;
+
+        }    
+        footer > ul{
+        align-items: center;        
+        }
+        </style>
+</head>
+<body>
+<div id="property">
+    <header>
+        <li><a href="#">Gmail</a></li>
+        <li><a href="#">Görseller</a></li>
+        <li><a href="#"><img src="img/appsbutton.svg" alt="appsbutton"></a></li>
+        <li><a href="#"><img src="img/profilepic.jpg" alt="profilepic"></a></li>
+    </header>
+    <div id="logo-container">
+        <img src="img/google-logo.png" alt="google-logo">
+    </div>
+    <div id="search-bar">
+        <img src="img/search-icon.png" alt="" class="search-icons" >
+        <input type="text">
+        <img src="img/keyboard.png" alt="" class="search-icons">
+        <img src="img/voicelogo.png" alt="" class="search-icons">
+        <img src="img/google-lens.png" alt="" class="search-icons">
+        
+    </div>
+    <div >
+        <button>Google Search</button>
+        <button>I'm feeling lucky</button>
+    </div>
+</div>
+<footer >
+    <div>
+        <ul>
+        <li>Advertising</li>
+        <li>Business</li>
+        <li>About</li>
+        <li>How Search works</li>
+        <li>Privacy</li>
+        <li>Teams</li>
+        <li>Settings</li>
+        </ul>
+    </div>
+</footer>
+</body>
+</html>
